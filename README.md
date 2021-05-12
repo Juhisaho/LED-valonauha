@@ -1,9 +1,15 @@
 # LED-valonauha
 
 Dependencies
+
 WLED for ESP32 
+
 Python 3.9
+
 Esptool
+
+Hyperion
+
 
 Installation
 
