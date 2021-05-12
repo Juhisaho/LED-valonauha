@@ -17,15 +17,12 @@ Install Python 3.9
 
 Install esptool in python "$ pip install esptool"
 
-Download wled bootloader from https://github.com/Aircoookie/WLED/releases/tag/v0.9.1
+Flash bootloader it into your Esp32 with Python with command "esptool.py write_flash 0x0 ./esp32_bootloader.bin"
 
-Flash it into your Esp32 with Python with command "esptool.py write_flash 0x0 ./esp32_bootloader.bin"
+Flash wled into your Esp32 with "esptool.py write_flash 0x10000 ./WLED_0.12.0_ESP32.bin"
 
-Download latest WLED-version from https://github.com/Aircoookie/WLED
+--You can compile your own wled version with source code and compile it with VisualStudio. I did so to make wifi-connection easier and and to code my own light-programs. I'm not going to share it for security purposes.
 
---You can also compile your own version with source code and compile it with VisualStudio. I did so, but I'm not going to share it for security purposes
-
-Flash your Esp32 with "esptool.py write_flash 0x10000 ./WLED_0.12.0_ESP32.bin"
 
 If your program is running correctly, ESP32 should now have orange light
 
