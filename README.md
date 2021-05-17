@@ -19,9 +19,9 @@ Install esptool in python "$ pip install esptool"
 
 Flash bootloader it into your Esp32 with Python with command "esptool.py write_flash 0x0 ./esp32_bootloader.bin"
 
-Flash wled into your Esp32 with "esptool.py write_flash 0x10000 ./WLED_0.12.0_ESP32.bin"
+Flash wled into your Esp32 with "esptool.py write_flash 0x10000 ./juhis_wled.bin"
 
---You can compile your own wled version with source code and compile it with VisualStudio. I did so to make wifi-connection easier and and to code my own light-programs. I'm not going to share it for security purposes.
+--This is custom wled compiled from source code. I deleted my wifi-credentials but it has custom light settings and programs.
 
 
 If your program is running correctly, ESP32 should now have orange light
